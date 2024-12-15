@@ -1,0 +1,64 @@
+/* Existing CSS remains unchanged */
+
+#whmcs-login {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#whmcs-login h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#whmcs-login form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#whmcs-login form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#whmcs-login form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#affiliate, #social-media {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+#affiliate h2, #social-media h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#affiliate p, #social-media p {
+    color: #666;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
